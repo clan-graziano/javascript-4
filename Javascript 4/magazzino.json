@@ -1,0 +1,14 @@
+{
+    "piatti": [
+        
+      { "nome": "Carbonara", "disponibile": 10 },
+      { "nome": "Polenta", "disponibile": 0 },
+      { "nome": "Lasagna", "disponibile": 8 },
+      { "nome": "Portellini in brodo", "disponibile": 3 },
+      { "nome": "Pizza", "disponibile": 18 },
+      { "nome": "Risotto alla milanese", "disponibile": 9 },
+      { "nome": "Pasta al salmone", "disponibile": 14},
+      { "nome": "Tagliatelle al ragu", "disponibile": 4 }
+      
+    ]
+}
