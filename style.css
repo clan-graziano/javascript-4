@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;700&family=Playfair+Display:wght@400;500&family=Playpen+Sans:wght@200;300;400&family=Unbounded&display=swap');
+*{
+    font-family: Unbounded;
+}
+.bg{
+    background-image: url(food-menu-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body {
+    font-family: 'Unbounded';
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-left: 800px;
+    margin-right:800px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#ordini,#catalogo,.maps {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-left: 280px;
+    margin-right:280px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.maps{
+    border: #000000 10px;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+iframe{
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: #555;
+    font-weight: bold;
+}
+
+select, input[type="number"], button {
+    margin-bottom: 20px;
+    padding: 12px;
+    width: calc(100% - 24px);
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+select:focus, input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.6s ;
+}
+
+button:hover {
+    transition: 0.6s;
+    background-color: #000000;
+}
