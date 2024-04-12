@@ -37,7 +37,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-#catalogo, #ordini {
+#ordini,#catalogo,.maps {
     background-color: #fff;
     border-radius: 15px;
     padding: 30px;
@@ -45,6 +45,22 @@ h1 {
     margin-left: 280px;
     margin-right:280px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.maps{
+    border: #000000 10px;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+iframe{
+    width: 100%;
+    height: auto;
 }
 
 ul {
