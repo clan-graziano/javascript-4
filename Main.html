@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+    <link rel="stylesheet" href="style.css">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+    </head>
+    <body class= "bg">
+        <h1 class = "title">Menu</h1>
+        <div id="riga">   
+            <div id="catalogo">
+                <h2>Catalogo</h2>
+                <ul id="lista-piatti">
+                    -Carbonara <br> 
+                    -Polenta<br> 
+                    -Lasagna<br> 
+                    -Portellini in brodo<br> 
+                    -Pizza<br> 
+                    -Risotto alla milanese<br> 
+                    -Pasta al salmone<br> 
+                    -Tagliatelle al ragu
+                </ul>
+            </div>
+            <div class="maps">
+                <h2 align="center">Dove ci troviamo</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5592.04898974497!2d9.20924747663185!3d45.50958553040882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c739b1a11523%3A0xbe47e0fe7860b1fc!2sMaga%20Furla!5e0!3m2!1sit!2sit!4v1712863272152!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div id="ordini">
+            <h2>Il tuo Ordine</h2>
+            <form id="form-ordine">
+                <label for="select-piatti">Seleziona piatti:</label>
+                <select id="select-piatti"></select>
+                <label for="quantita">Quantità:</label>
+                <input type="number" id="quantita" min="1" value="1">
+                <button type="button" onclick="aggiungiOrdine()">Aggiungi all'Ordine</button>
+            </form>
+            <h3>Ordini:</h3>
+            <ul id="lista-ordini"></ul>
+            <button onclick="effettuaOrdine()">Effettua Ordine</button>
+        </div>
+
+        <script src="script.js" type="text/javascript"></script>
+
+    </body>
+</html>
